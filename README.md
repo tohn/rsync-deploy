@@ -3,7 +3,8 @@
 Deploy to a remote server using rsync.
 
 example usage to sync everything in the workspace folder:
-```
+
+```yaml
 - name: deploy to server
         uses: AEnterprise/rsync-deploy@v1.0
         env:
@@ -16,4 +17,5 @@ example usage to sync everything in the workspace folder:
           SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
 ```
 
-If you only want to sync a specific subfolder you can put that folder in the folder env var instead
+If you only want to sync a specific subfolder you can put that folder in
+the folder env var instead
