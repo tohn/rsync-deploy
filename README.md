@@ -6,7 +6,7 @@ example usage to sync everything in the workspace folder:
 
 ```yaml
 - name: deploy to server
-  uses: tohn/rsync-deploy@v1.1.1
+  uses: tohn/rsync-deploy@v1
   env:
     DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
     ARGS: "-e -c -r --delete"
