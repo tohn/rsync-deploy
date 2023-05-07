@@ -1,0 +1,11 @@
+---
+name: Deploy with rsync
+description: Deploy to a remote server using rsync over ssh
+
+runs:
+  using: docker
+  image: Dockerfile
+
+branding:
+  icon: upload
+  color: green
